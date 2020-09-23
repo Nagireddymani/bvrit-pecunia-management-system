@@ -24,16 +24,16 @@ public class ErrorController {
 
 	@ResponseStatus(code = HttpStatus.NOT_FOUND)
 	@ExceptionHandler(InvalidAccountNumberException.class)
-	public ErrorResponse handleInvalidAccountNumberException(Exception ex,HttpServletRequest req)
+	public ErrorResponse handleInvalidAccountNumberException(HttpServletRequest req)
 	{
-		return new ErrorResponse(new Date(),ex.getMessage(), HttpStatus.NOT_FOUND.getReasonPhrase(), HttpStatus.NOT_FOUND.value(), req.getRequestURI());
+		return new ErrorResponse(new Date(),"Invalid Account Number", HttpStatus.NOT_FOUND.getReasonPhrase(), HttpStatus.NOT_FOUND.value(), req.getRequestURI());
 	}
 	
 	
 	@ResponseStatus(code = HttpStatus.BAD_REQUEST)
 	@ExceptionHandler(InsufficientBalanceException.class)
-	public ErrorResponse handleInSufficientAmountException(Exception ex,HttpServletRequest req)
+	public ErrorResponse handleInSufficientAmountException(HttpServletRequest req)
 	{
-		return new ErrorResponse(new Date(),ex.getMessage(), HttpStatus.BAD_REQUEST.getReasonPhrase(), HttpStatus.BAD_REQUEST.value(), req.getRequestURI());
+		return new ErrorResponse(new Date(),"Insufficient Balance", HttpStatus.BAD_REQUEST.getReasonPhrase(), HttpStatus.BAD_REQUEST.value(), req.getRequestURI());
 	}
 }

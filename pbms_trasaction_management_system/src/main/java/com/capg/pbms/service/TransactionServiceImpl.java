@@ -79,10 +79,10 @@ public class TransactionServiceImpl implements ITransactionService{
 									
 									//From Account
 									account.setAccountBalance(fromBalance);
-									account.setLastUpdated(LocalDate.now());
+									account.setLastUpdated(LocalDateTime.now());
 									//To Account
 									toAccount.setAccountBalance(toBalance);
-									toAccount.setLastUpdated(LocalDate.now());
+									toAccount.setLastUpdated(LocalDateTime.now());
 									
 									// From Transaction Object
 									Transaction fromTransaction=new Transaction();
@@ -121,6 +121,7 @@ public class TransactionServiceImpl implements ITransactionService{
 									
 									transactionRepository.save(fromTransaction);
 									transactionRepository.save(toTransaction);
+									
 									cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
 									cheque.setChequeStatus("Issued");
 									chequeRepository.save(cheque);
@@ -159,7 +160,7 @@ public class TransactionServiceImpl implements ITransactionService{
 						Double balance=account.getAccountBalance()-cheque.getAmount();
 						
 						account.setAccountBalance(balance);
-						account.setLastUpdated(LocalDate.now());
+						account.setLastUpdated(LocalDateTime.now());
 						try {
 							restTemplate.put(new URI(updateAccountUrl), account);
 						} catch (RestClientException e) {
@@ -215,7 +216,7 @@ public class TransactionServiceImpl implements ITransactionService{
 					{
 						Double balance=account.getAccountBalance()+slip.getAmount();
 					    account.setAccountBalance(balance);	
-					    account.setLastUpdated(LocalDate.now());
+					    account.setLastUpdated(LocalDateTime.now());
 					    try {
 							restTemplate.put(new URI(updateAccountUrl), account);
 						} catch (RestClientException e) {
@@ -253,7 +254,7 @@ public class TransactionServiceImpl implements ITransactionService{
 						{
 							Double balance=account.getAccountBalance()-slip.getAmount();
 						    account.setAccountBalance(balance);	
-						    account.setLastUpdated(LocalDate.now());
+						    account.setLastUpdated(LocalDateTime.now());
 						    try {
 								restTemplate.put(new URI(updateAccountUrl), account);
 							} catch (RestClientException e) {
@@ -404,5 +405,6 @@ public class TransactionServiceImpl implements ITransactionService{
 		}
 		return list;
 	}
+
 
 }

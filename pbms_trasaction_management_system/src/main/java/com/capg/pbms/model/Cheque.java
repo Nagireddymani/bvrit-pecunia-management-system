@@ -1,6 +1,7 @@
 package com.capg.pbms.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -24,7 +25,7 @@ public class Cheque {
     private String chequeHolderName;
     private String chequeBankName;
     private String chequeIFSC;
-    private LocalDate chequeIssueDate;
+    private LocalDateTime chequeIssueDate;
     private String chequeStatus;
     
     public Cheque() {
@@ -33,7 +34,7 @@ public class Cheque {
 
    
 	public Cheque(String chequeId, Integer chequeNum, String accountNum, Double amount, String chequeHolderName,
-			String chequeBankName, String chequeIFSC, LocalDate chequeIssueDate, String chequeStatus) {
+			String chequeBankName, String chequeIFSC, LocalDateTime chequeIssueDate, String chequeStatus) {
 		super();
 		this.chequeId = chequeId;
 		this.chequeNum = chequeNum;
@@ -117,12 +118,12 @@ public class Cheque {
 	}
 
 
-	public LocalDate getChequeIssueDate() {
+	public LocalDateTime getChequeIssueDate() {
 		return chequeIssueDate;
 	}
 
 
-	public void setChequeIssueDate(LocalDate chequeIssueDate) {
+	public void setChequeIssueDate(LocalDateTime chequeIssueDate) {
 		this.chequeIssueDate = chequeIssueDate;
 	}
 

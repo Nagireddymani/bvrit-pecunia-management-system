@@ -1,6 +1,7 @@
 package com.capg.pbms.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -24,7 +25,7 @@ public class Slip {
     private Double amount;
     private String slipBankName;
     private String bankIFSC;
-    private LocalDate slipIssueDate;
+    private LocalDateTime slipIssueDate;
     
     public Slip() {
 	
@@ -32,7 +33,7 @@ public class Slip {
     
 
 	public Slip(String slipId, String accountNum, String slipHolderName, String slipType, Double amount,
-			String slipBankName, String bankIFSC, LocalDate slipIssueDate) {
+			String slipBankName, String bankIFSC, LocalDateTime slipIssueDate) {
 		super();
 		this.slipId = slipId;
 		this.accountNum = accountNum;
@@ -85,11 +86,11 @@ public class Slip {
 		this.bankIFSC = bankIFSC;
 	}
 
-	public LocalDate getSlipIssueDate() {
+	public LocalDateTime getSlipIssueDate() {
 		return slipIssueDate;
 	}
 
-	public void setSlipIssueDate(LocalDate slipIssueDate) {
+	public void setSlipIssueDate(LocalDateTime slipIssueDate) {
 		this.slipIssueDate = slipIssueDate;
 	}
 	

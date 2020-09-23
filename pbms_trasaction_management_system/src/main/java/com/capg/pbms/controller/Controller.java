@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.capg.pbms.model.Cheque;
+import com.capg.pbms.model.ChequeList;
 import com.capg.pbms.model.Slip;
+import com.capg.pbms.model.SlipList;
 import com.capg.pbms.model.Transaction;
 import com.capg.pbms.model.TransactionList;
 import com.capg.pbms.service.ITransactionService;
@@ -68,9 +70,9 @@ public class Controller {
 	}	
 	
 	@GetMapping("/getallcheques-byaccountnum/{accountNum}")
-	public ResponseEntity<List<Cheque>>  getAllChequesByAccountNum(@PathVariable String accountNum)
+	public ResponseEntity<ChequeList>  getAllChequesByAccountNum(@PathVariable String accountNum)
 	{
-		return new ResponseEntity<List<Cheque>>(transactionService.getAllChequesByAccountNum(accountNum), HttpStatus.OK) ;
+		return new ResponseEntity<ChequeList>(new ChequeList(transactionService.getAllChequesByAccountNum(accountNum)), HttpStatus.OK) ;
 	}
 	
 	@GetMapping("/getallslips")
@@ -80,8 +82,8 @@ public class Controller {
 	}	
 	
 	@GetMapping("/getallslips-byaccountnum/{accountNum}")
-	public ResponseEntity<List<Slip>> getAllSlipsByAccountNum(@PathVariable String accountNum)
+	public ResponseEntity<SlipList> getAllSlipsByAccountNum(@PathVariable String accountNum)
 	{
-		return  new ResponseEntity<List<Slip>>(transactionService.getAllSlipsByAccountNum(accountNum), HttpStatus.OK);
+		return  new ResponseEntity<SlipList>(new SlipList(transactionService.getAllSlipsByAccountNum(accountNum)), HttpStatus.OK);
 	}	
 }

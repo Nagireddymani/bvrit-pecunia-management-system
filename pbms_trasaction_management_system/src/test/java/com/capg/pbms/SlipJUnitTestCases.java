@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.net.URISyntaxException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -27,11 +28,11 @@ public class SlipJUnitTestCases {
 	@BeforeEach
 	void init()
 	{
-	 slip=new Slip("","912345678902222","Rohankumar","",1000.0,"Pecunia Bank of India", "PECB0001714", LocalDate.now());
+	 slip=new Slip("","912345678902222","Rohankumar","",1000.0,"Pecunia Bank of India", "PECB0001714", LocalDateTime.now());
 	 
-	 slip1=new Slip("","91234567890","Rohankumar","",10000.0,"Pecunia Bank of India", "PECB0001714", LocalDate.now());
+	 slip1=new Slip("","91234567890","Rohankumar","",10000.0,"Pecunia Bank of India", "PECB0001714", LocalDateTime.now());
      
-	 slip2=new Slip("","912345678902222","Rohankumar","",100000.0,"Pecunia Bank of India", "PECB0001714", LocalDate.now());
+	 slip2=new Slip("","912345678902222","Rohankumar","",100000.0,"Pecunia Bank of India", "PECB0001714", LocalDateTime.now());
 	}
 	
 	@Test

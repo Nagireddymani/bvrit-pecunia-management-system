@@ -2,6 +2,8 @@ package com.capg.pbms;
 
 import java.net.URISyntaxException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Assertions;
@@ -26,8 +28,8 @@ class PbmsTrasactionManagementSystemApplicationTests {
 	@BeforeEach
 	void init()
 	{
-		cheque=new Cheque("", 2, "912345678902222", 500.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDate.now(),"Pending" );
-		cheque1=new Cheque("", 2, "912345678902222", 50000.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDate.now(),"Pending" );
+		cheque=new Cheque("", 2, "912345678902222", 500.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
+		cheque1=new Cheque("", 2, "912345678902222", 50000.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
 	}
 	
 	@Test

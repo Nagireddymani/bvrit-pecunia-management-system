@@ -15,7 +15,7 @@ public interface ITransactionService {
 
 
 	Cheque creditUsingCheque(Cheque cheque,String transType,String toAccountNumber);
-	
+		
 	Cheque debitUsingCheque(Cheque cheque,String transType);
 	
 	Slip creditAndDebitUsingSlip(Slip slip, String transType);

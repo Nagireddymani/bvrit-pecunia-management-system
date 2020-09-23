@@ -1,6 +1,7 @@
 package com.capg.pbms.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import javax.persistence.CascadeType;
 import javax.persistence.FetchType;
@@ -21,10 +22,8 @@ public class AccountManagement {
 	private String accountStatus;
 	private Double accountBalance;
 	private Double accountInterest;
-	private LocalDate lastUpdated;
+	private LocalDateTime lastUpdated;
 	
-	@OneToOne(fetch = FetchType.LAZY, mappedBy="account",cascade=CascadeType.ALL)
-	private Customer customer;
 	
 	public AccountManagement() {
 	
@@ -90,36 +89,20 @@ public class AccountManagement {
 		this.accountInterest = accountInterest;
 	}
 
-
-
-	public Customer getCustomer() {
-		return customer;
-	}
-
-
-
-	public void setCustomer(Customer customer) {
-		this.customer = customer;
-	}
-
-
-
-	public LocalDate getLastUpdated() {
+	public LocalDateTime getLastUpdated() {
 		return lastUpdated;
 	}
 
-	public void setLastUpdated(LocalDate lastUpdated) {
+	public void setLastUpdated(LocalDateTime lastUpdated) {
 		this.lastUpdated = lastUpdated;
 	}
-
-
 
 	@Override
 	public String toString() {
 		return "AccountManagement [accountId=" + accountId + ", accountHolderId=" + accountHolderId
 				+ ", accountBranchId=" + accountBranchId + ", accountType=" + accountType + ", accountStatus="
 				+ accountStatus + ", accountBalance=" + accountBalance + ", accountInterest=" + accountInterest
-				+ ", lastUpdated=" + lastUpdated + ", customer=" + customer + "]";
+				+ ", lastUpdated=" + lastUpdated + "]";
 	}
 
 
