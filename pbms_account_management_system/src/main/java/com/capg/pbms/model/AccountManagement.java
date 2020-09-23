@@ -1,6 +1,7 @@
 package com.capg.pbms.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -18,7 +19,7 @@ public class AccountManagement {
 	private String accountStatus;
 	private Double accountBalance;
 	private Double accountInterest;
-	private LocalDate lastUpdated;
+	private LocalDateTime lastUpdated;
 	
 	
 	public AccountManagement() {
@@ -28,7 +29,7 @@ public class AccountManagement {
 	
 
 	public AccountManagement(String accountId, String accountHolderId, String accountBranchId, String accountType,
-			String accountStatus, Double accountBalance, Double accountInterest, LocalDate lastUpdated) {
+			String accountStatus, Double accountBalance, Double accountInterest, LocalDateTime lastUpdated) {
 		super();
 		this.accountId = accountId;
 		this.accountHolderId = accountHolderId;
@@ -103,11 +104,11 @@ public class AccountManagement {
 	}
 
 
-	public LocalDate getLastUpdated() {
+	public LocalDateTime getLastUpdated() {
 		return lastUpdated;
 	}
 
-	public void setLastUpdated(LocalDate lastUpdated) {
+	public void setLastUpdated(LocalDateTime lastUpdated) {
 		this.lastUpdated = lastUpdated;
 	}
 

@@ -51,11 +51,15 @@ public class CustomerServiceImpl implements ICustomerService {
 
 	@Override
 	public AccountManagement getAccountById(String accountId) {
-		if(!accountRepository.existsById(accountId))
+
+	
+		AccountManagement account=null;
+		if(accountRepository.existsById(accountId))
 		{
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+			account= accountRepository.getOne(accountId);
 		}
-		return accountRepository.getOne(accountId);
+		
+		return account;
 	}
 
 	@Override
