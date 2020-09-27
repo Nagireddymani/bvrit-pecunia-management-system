@@ -1,5 +1,6 @@
 package com.capg.pbms.model;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import javax.persistence.CascadeType;
@@ -30,7 +31,7 @@ public class Customer {
 	private String customerPan;
 	private String customerContact;
 	private String customerGender;
-	private LocalDateTime customerDob;
+	private LocalDate customerDob;
 	
 	public Customer() {
 	
@@ -38,7 +39,7 @@ public class Customer {
 
 	public Customer(String customerId, String customerName, AccountManagement account, Address customerAddress,
 			String customerAadhar, String customerPan, String customerContact, String customerGender,
-			LocalDateTime customerDob) {
+			LocalDate customerDob) {
 		super();
 		this.customerId = customerId;
 		this.customerName = customerName;
@@ -117,11 +118,11 @@ public class Customer {
 		this.customerGender = customerGender;
 	}
 
-	public LocalDateTime getCustomerDob() {
+	public LocalDate getCustomerDob() {
 		return customerDob;
 	}
 
-	public void setCustomerDob(LocalDateTime customerDob) {
+	public void setCustomerDob(LocalDate customerDob) {
 		this.customerDob = customerDob;
 	}
 

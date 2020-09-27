@@ -1,6 +1,5 @@
 package com.capg.pbms.model;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
@@ -20,7 +19,6 @@ public class AccountManagement {
 	private Double accountBalance;
 	private Double accountInterest;
 	private LocalDateTime lastUpdated;
-	
 	
 	public AccountManagement() {
 	
