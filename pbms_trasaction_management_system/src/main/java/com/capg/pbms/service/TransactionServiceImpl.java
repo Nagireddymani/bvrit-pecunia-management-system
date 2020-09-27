@@ -1,8 +1,7 @@
-package com.capg.pbms.service;
+	package com.capg.pbms.service;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Random;
@@ -67,6 +66,7 @@ public class TransactionServiceImpl implements ITransactionService{
 	@Override
 	public Cheque creditUsingCheque(Cheque cheque, String transType, String toAccountNumber) {
 		AccountManagement account=restTemplate.getForObject(getAccountUrl+cheque.getAccountNum(), AccountManagement.class);
+		cheque.setChequeStatus("Pending");
 		if(account!=null ) {
 					if(account.getAccountBalance()>cheque.getAmount() && cheque.getAmount() > 0) 
 					{
@@ -123,6 +123,7 @@ public class TransactionServiceImpl implements ITransactionService{
 									transactionRepository.save(toTransaction);
 									
 									cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
+									cheque.setChequeIssueDate(LocalDateTime.now());
 									cheque.setChequeStatus("Issued");
 									chequeRepository.save(cheque);
 						    }
@@ -131,6 +132,9 @@ public class TransactionServiceImpl implements ITransactionService{
 							}
 					}
 					else {
+						cheque.setChequeIssueDate(LocalDateTime.now());
+						cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
+						cheque.setChequeStatus("Bounced");
 						throw new InsufficientBalanceException("Balance in Account is to low");
 					}			
 		}
@@ -154,6 +158,7 @@ public class TransactionServiceImpl implements ITransactionService{
 	@Override
 	public Cheque debitUsingCheque(Cheque cheque, String transType){
 		AccountManagement account=restTemplate.getForObject(getAccountUrl+cheque.getAccountNum(), AccountManagement.class);
+		cheque.setChequeStatus("Pending");
 		if(account!=null) {
 				if(account.getAccountBalance()>cheque.getAmount() && cheque.getAmount() > 0) 
 				{	 
@@ -181,12 +186,16 @@ public class TransactionServiceImpl implements ITransactionService{
 						transaction.setTransTo(value);
 						
 						transactionRepository.save(transaction);
+						cheque.setChequeIssueDate(LocalDateTime.now());
 						cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
 						cheque.setChequeStatus("Issued");
 						chequeRepository.save(cheque);
 				}
 				else
 				{
+					cheque.setChequeIssueDate(LocalDateTime.now());
+					cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
+					cheque.setChequeStatus("Issued");
 					throw new InsufficientBalanceException("Balance in Account is to low");
 				}
 		}
@@ -239,7 +248,7 @@ public class TransactionServiceImpl implements ITransactionService{
 						
 						slip.setSlipId(Integer.toString(random.nextInt(1000000)).substring(0,4));
 						slip.setSlipType(transType);
-						
+						slip.setSlipIssueDate(LocalDateTime.now());
 						slipRepository.save(slip);
 						transactionRepository.save(transaction);
 					}
@@ -277,6 +286,7 @@ public class TransactionServiceImpl implements ITransactionService{
 							
 							slip.setSlipId(Integer.toString(random.nextInt(1000000)).substring(0,4));
 							slip.setSlipType(transType);
+							slip.setSlipIssueDate(LocalDateTime.now());
 							
 							slipRepository.save(slip);
 							transactionRepository.save(transaction);
@@ -284,11 +294,11 @@ public class TransactionServiceImpl implements ITransactionService{
 						else {
 								throw new InsufficientBalanceException("Insufficient Balance");
 						}
-			}
+			   }
+	    	}
 			else {
 				throw new InvalidAccountNumberException("Invalid Account Number"); 
 			}		
-		}
 		return slip;
 	}
 

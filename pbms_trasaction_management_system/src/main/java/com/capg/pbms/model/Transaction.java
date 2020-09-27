@@ -130,6 +130,79 @@ public class Transaction {
 				+ ", transFrom=" + transFrom + ", transTo=" + transTo + ", transClosingBalnace=" + transClosingBalnace
 				+ "]";
 	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((transAccountId == null) ? 0 : transAccountId.hashCode());
+		result = prime * result + ((transAmount == null) ? 0 : transAmount.hashCode());
+		result = prime * result + ((transClosingBalnace == null) ? 0 : transClosingBalnace.hashCode());
+		result = prime * result + ((transDate == null) ? 0 : transDate.hashCode());
+		result = prime * result + ((transFrom == null) ? 0 : transFrom.hashCode());
+		result = prime * result + ((transId == null) ? 0 : transId.hashCode());
+		result = prime * result + ((transOption == null) ? 0 : transOption.hashCode());
+		result = prime * result + ((transTo == null) ? 0 : transTo.hashCode());
+		result = prime * result + ((transType == null) ? 0 : transType.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Transaction other = (Transaction) obj;
+		if (transAccountId == null) {
+			if (other.transAccountId != null)
+				return false;
+		} else if (!transAccountId.equals(other.transAccountId))
+			return false;
+		if (transAmount == null) {
+			if (other.transAmount != null)
+				return false;
+		} else if (!transAmount.equals(other.transAmount))
+			return false;
+		if (transClosingBalnace == null) {
+			if (other.transClosingBalnace != null)
+				return false;
+		} else if (!transClosingBalnace.equals(other.transClosingBalnace))
+			return false;
+		if (transDate == null) {
+			if (other.transDate != null)
+				return false;
+		} else if (!transDate.equals(other.transDate))
+			return false;
+		if (transFrom == null) {
+			if (other.transFrom != null)
+				return false;
+		} else if (!transFrom.equals(other.transFrom))
+			return false;
+		if (transId == null) {
+			if (other.transId != null)
+				return false;
+		} else if (!transId.equals(other.transId))
+			return false;
+		if (transOption == null) {
+			if (other.transOption != null)
+				return false;
+		} else if (!transOption.equals(other.transOption))
+			return false;
+		if (transTo == null) {
+			if (other.transTo != null)
+				return false;
+		} else if (!transTo.equals(other.transTo))
+			return false;
+		if (transType == null) {
+			if (other.transType != null)
+				return false;
+		} else if (!transType.equals(other.transType))
+			return false;
+		return true;
+	}
 	
 	
 	

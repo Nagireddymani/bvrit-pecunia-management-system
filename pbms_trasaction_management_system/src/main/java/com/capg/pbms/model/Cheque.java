@@ -1,6 +1,6 @@
 package com.capg.pbms.model;
 
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
@@ -145,6 +145,83 @@ public class Cheque {
 				+ ", chequeIFSC=" + chequeIFSC + ", chequeIssueDate=" + chequeIssueDate + ", chequeStatus="
 				+ chequeStatus + "]";
 	}
+
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((accountNum == null) ? 0 : accountNum.hashCode());
+		result = prime * result + ((amount == null) ? 0 : amount.hashCode());
+		result = prime * result + ((chequeBankName == null) ? 0 : chequeBankName.hashCode());
+		result = prime * result + ((chequeHolderName == null) ? 0 : chequeHolderName.hashCode());
+		result = prime * result + ((chequeIFSC == null) ? 0 : chequeIFSC.hashCode());
+		result = prime * result + ((chequeId == null) ? 0 : chequeId.hashCode());
+		result = prime * result + ((chequeIssueDate == null) ? 0 : chequeIssueDate.hashCode());
+		result = prime * result + ((chequeNum == null) ? 0 : chequeNum.hashCode());
+		result = prime * result + ((chequeStatus == null) ? 0 : chequeStatus.hashCode());
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Cheque other = (Cheque) obj;
+		if (accountNum == null) {
+			if (other.accountNum != null)
+				return false;
+		} else if (!accountNum.equals(other.accountNum))
+			return false;
+		if (amount == null) {
+			if (other.amount != null)
+				return false;
+		} else if (!amount.equals(other.amount))
+			return false;
+		if (chequeBankName == null) {
+			if (other.chequeBankName != null)
+				return false;
+		} else if (!chequeBankName.equals(other.chequeBankName))
+			return false;
+		if (chequeHolderName == null) {
+			if (other.chequeHolderName != null)
+				return false;
+		} else if (!chequeHolderName.equals(other.chequeHolderName))
+			return false;
+		if (chequeIFSC == null) {
+			if (other.chequeIFSC != null)
+				return false;
+		} else if (!chequeIFSC.equals(other.chequeIFSC))
+			return false;
+		if (chequeId == null) {
+			if (other.chequeId != null)
+				return false;
+		} else if (!chequeId.equals(other.chequeId))
+			return false;
+		if (chequeIssueDate == null) {
+			if (other.chequeIssueDate != null)
+				return false;
+		} else if (!chequeIssueDate.equals(other.chequeIssueDate))
+			return false;
+		if (chequeNum == null) {
+			if (other.chequeNum != null)
+				return false;
+		} else if (!chequeNum.equals(other.chequeNum))
+			return false;
+		if (chequeStatus == null) {
+			if (other.chequeStatus != null)
+				return false;
+		} else if (!chequeStatus.equals(other.chequeStatus))
+			return false;
+		return true;
+	}
+	
+	
    
     
 }
