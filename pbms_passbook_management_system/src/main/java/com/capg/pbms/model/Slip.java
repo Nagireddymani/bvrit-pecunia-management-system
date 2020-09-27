@@ -5,36 +5,45 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+/*******************************************************************************************************************************
+-Author                   :     M.Sai
+-Created/Modified Date    :     22-09-2020
+-Description              :     Slip Bean Class
+
+*******************************************************************************************************************************/
 @Entity
+@Table(name = "slip_table")
 public class Slip {
 
 	@Id
     private String slipId;
     private String accountNum;
     private String slipHolderName;
+    private String slipType;
     private Double amount;
-    private String chequeBankName;
+    private String slipBankName;
     private String bankIFSC;
     private LocalDateTime slipIssueDate;
     
     public Slip() {
 	
     }
+    
 
-	public Slip(String slipId, String accountNum, String slipHolderName, Double amount, String chequeBankName,
-			String bankIFSC, LocalDateTime slipIssueDate) {
+	public Slip(String slipId, String accountNum, String slipHolderName, String slipType, Double amount,
+			String slipBankName, String bankIFSC, LocalDateTime slipIssueDate) {
 		super();
 		this.slipId = slipId;
 		this.accountNum = accountNum;
 		this.slipHolderName = slipHolderName;
+		this.slipType = slipType;
 		this.amount = amount;
-		this.chequeBankName = chequeBankName;
+		this.slipBankName = slipBankName;
 		this.bankIFSC = bankIFSC;
 		this.slipIssueDate = slipIssueDate;
 	}
-
-
 
 
 	public String getSlipId() {
@@ -61,12 +70,12 @@ public class Slip {
 		this.slipHolderName = slipHolderName;
 	}
 
-	public String getChequeBankName() {
-		return chequeBankName;
+	public String getSlipBankName() {
+		return slipBankName;
 	}
 
-	public void setChequeBankName(String chequeBankName) {
-		this.chequeBankName = chequeBankName;
+	public void setSlipBankName(String slipBankName) {
+		this.slipBankName = slipBankName;
 	}
 
 	public String getBankIFSC() {
@@ -93,12 +102,26 @@ public class Slip {
 		this.amount = amount;
 	}
 
+	
+
+	public String getSlipType() {
+		return slipType;
+	}
+
+
+	public void setSlipType(String slipType) {
+		this.slipType = slipType;
+	}
+
+
 	@Override
 	public String toString() {
 		return "Slip [slipId=" + slipId + ", accountNum=" + accountNum + ", slipHolderName=" + slipHolderName
-				+ ", amount=" + amount + ", chequeBankName=" + chequeBankName + ", bankIFSC=" + bankIFSC
-				+ ", slipIssueDate=" + slipIssueDate + "]";
+				+ ", slipType=" + slipType + ", amount=" + amount + ", slipBankName=" + slipBankName + ", bankIFSC="
+				+ bankIFSC + ", slipIssueDate=" + slipIssueDate + "]";
 	}
+
+
 
 	
     

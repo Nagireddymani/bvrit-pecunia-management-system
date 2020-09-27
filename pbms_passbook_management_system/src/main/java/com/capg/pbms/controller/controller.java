@@ -3,8 +3,10 @@ package com.capg.pbms.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +17,7 @@ import com.capg.pbms.model.Slip;
 import com.capg.pbms.model.Transaction;
 import com.capg.pbms.service.IPassbookService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/passbook")
 public class controller {
@@ -28,7 +31,7 @@ public class controller {
 		return passbookService.getAllTransactionsById(accountNum);
 	}
 	
-	@GetMapping("/getalltransaction-btw-dates/{accountNum}")
+	@PostMapping("/getalltransaction-btw-dates/{accountNum}")
 	public List<Transaction> getAllTransactionsBtwDates(@PathVariable String accountNum, @RequestBody Dates dates)
 	{
 		return passbookService.getAllTransactionsBetweenDates(dates.getFromDate(),dates.getToDate(), accountNum);
