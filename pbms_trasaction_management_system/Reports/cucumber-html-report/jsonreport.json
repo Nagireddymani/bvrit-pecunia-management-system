@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-29T20:39:40.765Z",
+        "line": 4,
+        "name": "Whenan Employee enters all the details, Without mistakes",
+        "description": "          of a cheque form then amount is Credited from FromAccount and Debited to ToAccountNumber\n          mentioned in Form successfully",
+        "id": "credit-feature-of-transaction;whenan-employee-enters-all-the-details--without-mistakes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12670000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Employee is in Credit Using Cheque Form Page",
+            "match": {
+              "location": "com.capg.pbms.stepdefination.CreditUsingChequeSteps.employee_is_in_Credit_Using_Cheque_Form_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1395000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Employee Enters Cheque Form Details and Click Submit",
+            "match": {
+              "location": "com.capg.pbms.stepdefination.CreditUsingChequeSteps.employee_Enters_Cheque_Form_Details_and_Click_Submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Amount is Credited From the FromAccountNumber to ToAccountNumber",
+            "match": {
+              "location": "com.capg.pbms.stepdefination.CreditUsingChequeSteps.amount_is_Credited_From_the_FromAccountNumber_to_ToAccountNumber()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Credit Feature Of Transaction",
+    "description": "",
+    "id": "credit-feature-of-transaction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreditingFeature.feature",
+    "tags": []
+  }
+]

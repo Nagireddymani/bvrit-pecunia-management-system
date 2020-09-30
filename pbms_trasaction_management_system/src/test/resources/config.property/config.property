@@ -1,0 +1,13 @@
+browser = edge
+url = http://localhost:4200/
+
+
+#debitForm Details
+
+accountnumber = 548910101000123
+toaccountnumber = 548910101000122
+chequenumber = 1
+holdername = Ravikumar
+amount = 1000
+bankname = Pecunia Bank of India
+ifsccode = PECB0005489

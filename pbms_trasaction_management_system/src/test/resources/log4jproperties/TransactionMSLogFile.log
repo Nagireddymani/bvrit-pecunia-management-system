@@ -1,0 +1,230 @@
+2020-09-29 22:24:49,793 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 22:26:06,494 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 22:30:38,889 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 22:30:57,369 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 22:31:17,111 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 22:31:17,149 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 22:31:20,560 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 22:31:23,831 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 22:31:23,989 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 22:58:09,969 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 22:58:24,306 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 22:58:38,810 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 22:58:39,013 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 22:59:11,754 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 22:59:13,857 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 22:59:13,862 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:00:50,237 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:00:57,831 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:01:03,598 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:01:03,599 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:01:34,589 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:01:36,381 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:01:36,387 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:02:38,080 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:02:46,351 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:02:50,670 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:02:50,672 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:02:51,523 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:02:55,335 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:02:55,337 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:03:24,176 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:03:32,137 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:03:37,431 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:03:37,433 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:03:38,520 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:04:10,782 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:04:10,784 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:04:22,939 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:04:29,975 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:04:34,158 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:04:34,161 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:04:35,509 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:05:09,277 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:05:09,279 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:05:47,109 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:05:57,934 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:06:07,330 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:06:07,333 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:06:08,358 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:06:11,268 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:06:11,270 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:06:35,732 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:06:43,392 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:06:51,328 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:06:51,342 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:06:52,060 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:06:54,719 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:06:54,723 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:12:31,821 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:12:39,017 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:12:44,707 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:12:44,709 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:12:45,595 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:12:51,792 - com.capg.pbms.baseclass.Library -INFO - Exiting the application and closing the browser
+2020-09-29 23:12:51,793 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:13:55,353 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:14:03,428 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:14:08,691 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:14:08,693 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:14:09,290 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:14:12,185 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-29 23:19:39,755 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:19:50,006 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:20:13,076 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:20:13,145 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:20:14,793 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:21:32,853 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:21:44,705 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:21:57,507 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:21:57,546 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:21:58,483 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:22:42,082 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:22:50,073 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:22:55,473 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:22:55,482 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:22:57,772 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:24:37,566 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:24:46,380 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:24:57,581 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:24:57,588 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:24:59,365 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:28:40,479 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:28:48,230 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-29 23:28:59,207 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-29 23:28:59,220 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-29 23:28:59,874 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-29 23:31:07,632 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-29 23:32:09,100 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:02:38,819 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:02:51,723 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:03:18,099 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:03:18,100 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:03:21,335 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:03:23,066 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:03:24,472 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-30 00:05:55,335 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:06:11,340 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:06:23,048 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:06:23,050 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:06:25,643 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:06:27,455 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:06:29,779 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-30 00:07:30,160 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:07:41,018 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:07:47,806 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:07:47,877 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:07:48,752 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:07:50,258 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:07:50,822 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-30 00:08:43,501 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:08:51,055 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:09:05,483 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:09:05,485 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:09:06,347 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:09:39,266 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-30 00:10:29,726 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:10:36,526 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:10:41,247 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:10:41,249 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:10:42,246 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:10:43,875 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:13:23,442 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:13:31,385 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:13:42,376 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:13:42,378 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:13:43,278 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:13:44,773 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:14:53,543 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:15:03,262 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:15:08,302 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:15:08,304 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:15:09,292 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:15:10,980 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:18:30,538 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:18:38,276 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:18:42,339 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:18:42,350 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:18:43,829 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:18:45,146 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:18:46,865 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-30 00:37:36,344 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:37:59,744 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:38:11,858 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:38:11,862 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:38:12,863 - com.capg.pbms.baseclass.Library -INFO - Credit Using Cheque Form Opened
+2020-09-30 00:38:14,106 - com.capg.pbms.baseclass.Library -INFO - Entered Form Details
+2020-09-30 00:41:38,195 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 00:41:45,025 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 00:41:52,476 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 00:41:52,479 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 00:41:53,420 - com.capg.pbms.baseclass.Library -INFO - Debit Using Cheque Form Opened
+2020-09-30 00:41:59,228 - com.capg.pbms.baseclass.Library -INFO - Form Submited
+2020-09-30 00:42:01,368 - com.capg.pbms.baseclass.Library -INFO - Closing Browser
+2020-09-30 01:08:02,894 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:09:59,812 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:10:06,166 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:10:47,938 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:10:48,708 - com.capg.pbms.baseclass.Library -INFO - Browser Launced
+2020-09-30 01:12:46,189 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:12:51,769 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:13:04,646 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:13:04,755 - com.capg.pbms.baseclass.Library -INFO - Browser Launced
+2020-09-30 01:23:16,917 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:23:25,777 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:23:36,350 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:23:36,352 - com.capg.pbms.baseclass.Library -INFO - Browser Launced
+2020-09-30 01:27:02,483 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:27:11,260 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:27:22,183 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:27:22,244 - com.capg.pbms.baseclass.Library -INFO - Browser Launced
+2020-09-30 01:29:51,018 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:30:29,983 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:30:44,094 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:30:44,179 - com.capg.pbms.baseclass.Library -INFO - Browser Launced
+2020-09-30 01:35:25,798 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:36:18,794 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:39:05,017 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:39:31,336 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:39:53,976 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:39:54,071 - com.capg.pbms.baseclass.Library -INFO - Browser Launced
+2020-09-30 01:43:47,973 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:43:54,643 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:44:00,461 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:46:58,706 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:47:05,788 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:47:10,479 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:47:10,632 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 01:47:11,337 - com.capg.pbms.baseclass.Library -INFO - Opened Cheque Form
+2020-09-30 01:47:59,181 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:48:05,952 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:48:11,407 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:48:11,574 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 01:48:11,909 - com.capg.pbms.baseclass.Library -INFO - Opened Cheque Form
+2020-09-30 01:49:48,830 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 01:49:56,061 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 01:50:14,873 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 01:50:15,057 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 01:50:15,487 - com.capg.pbms.baseclass.Library -INFO - Opened Cheque Form
+2020-09-30 01:50:16,388 - com.capg.pbms.baseclass.Library -INFO - Form Submited
+2020-09-30 02:06:04,198 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 02:06:11,238 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 02:06:18,782 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 02:06:18,786 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 02:06:22,700 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 02:06:28,151 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 02:06:28,301 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 02:06:28,640 - com.capg.pbms.baseclass.Library -INFO - Opened Cheque Form
+2020-09-30 02:06:29,559 - com.capg.pbms.baseclass.Library -INFO - Submit Button Clicked
+2020-09-30 02:08:16,400 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 02:08:23,398 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 02:08:28,896 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 02:08:29,053 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 02:08:29,307 - com.capg.pbms.baseclass.Library -INFO - Opened Cheque Form
+2020-09-30 02:08:30,153 - com.capg.pbms.baseclass.Library -INFO - Submit Button Clicked
+2020-09-30 02:09:41,191 - com.capg.pbms.baseclass.Library -INFO - Starting with Browser Set Up
+2020-09-30 02:09:48,366 - com.capg.pbms.baseclass.Library -INFO - Identified the browser as edge. Launching the browser
+2020-09-30 02:09:52,983 - com.capg.pbms.baseclass.Library -INFO - Launched the Pecunia Bank Management Application
+2020-09-30 02:09:53,158 - com.capg.pbms.baseclass.Library -INFO - Browser Launched
+2020-09-30 02:09:53,586 - com.capg.pbms.baseclass.Library -INFO - Opened Cheque Form
+2020-09-30 02:09:54,556 - com.capg.pbms.baseclass.Library -INFO - Submit Button Clicked

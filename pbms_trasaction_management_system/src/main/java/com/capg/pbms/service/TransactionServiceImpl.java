@@ -135,6 +135,7 @@ public class TransactionServiceImpl implements ITransactionService{
 						cheque.setChequeIssueDate(LocalDateTime.now());
 						cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
 						cheque.setChequeStatus("Bounced");
+						chequeRepository.save(cheque);
 						throw new InsufficientBalanceException("Balance in Account is to low");
 					}			
 		}
@@ -195,7 +196,8 @@ public class TransactionServiceImpl implements ITransactionService{
 				{
 					cheque.setChequeIssueDate(LocalDateTime.now());
 					cheque.setChequeId(Integer.toString(random.nextInt(1000000)).substring(0,4));
-					cheque.setChequeStatus("Issued");
+					cheque.setChequeStatus("Bounced");
+					chequeRepository.save(cheque);
 					throw new InsufficientBalanceException("Balance in Account is to low");
 				}
 		}

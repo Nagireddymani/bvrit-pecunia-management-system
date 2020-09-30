@@ -28,13 +28,13 @@ class PbmsTrasactionManagementSystemApplicationTests {
 	@BeforeEach
 	void init()
 	{
-		cheque=new Cheque("", 2, "912345678902222", 500.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
-		cheque1=new Cheque("", 2, "912345678902222", 50000.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
+		cheque=new Cheque("", 2, "548910101000123", 500.0, "Ravikumar", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
+		cheque1=new Cheque("", 2, "548910101000123", 500000.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
 	}
 	
 	@Test
 	void creditAmountUsingCheque() throws RestClientException, URISyntaxException {
-		assertEquals(true, transactionService.creditUsingCheque(cheque, "credit", "912345678901111")!=null);
+		assertEquals(true, transactionService.creditUsingCheque(cheque, "credit", "548910101000123")!=null);
 	}
 	
 	@Test
