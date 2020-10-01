@@ -1,20 +1,21 @@
-package com.capg.pbms.repository;
+package com.capg.pbms.dao;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.capg.pbms.model.Cheque;
+import com.capg.pbms.model.Slip;
 
 /*******************************************************************************************************************************
--Author                   :     N.Mani Kanta Reddy
+-Author                   :     M.Sai
 -Created/Modified Date    :     22-09-2020
--Description              :     Cheque JpaRepository 
+-Description              :     Slip JpaRepository
 
 *******************************************************************************************************************************/
-public interface IChequeRepository extends JpaRepository<Cheque, String>{
+public interface ISlipRepository extends JpaRepository<Slip, String> {
 
-	@Query("From Cheque As cheque where cheque.accountNum = :accountNum")
-	List<Cheque> findAllChequesByAccountNum(String accountNum);
+
+	@Query("From Slip As slip where slip.accountNum = :accountNum")
+	List<Slip> findAllSlipsByAccountNum(String accountNum);
 }

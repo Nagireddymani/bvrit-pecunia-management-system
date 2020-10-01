@@ -2,6 +2,7 @@ package com.capg.pbms.selenium_reuseable_functions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -52,14 +53,14 @@ public class SeleniumUtility extends Library{
 	public void switchToAlert() 
 	{
 		try {
+			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			Alert alert = driver.switchTo().alert();
 			String alertMessage= driver.switchTo().alert().getText();
 			System.out.println(alertMessage);
 			alert.accept();
 	    } catch (NoAlertPresentException e) {
-
-	        e.printStackTrace();
-
+	    	System.out.println("");
 	    }
 	}
 	

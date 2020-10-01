@@ -47,9 +47,10 @@ public class CreditUsingChequePageTestCase extends Library{
 	public void close()
 	{
 		seleniumUtility = new SeleniumUtility(driver);
+		seleniumUtility.switchToAlert();
 		seleniumUtility.getTitle();
 		seleniumUtility.to_take_screenshot("CreditFormDetails");
-		//tearDown();
+		tearDown();
 		logger.info("Closing Browser");
 		
 	}

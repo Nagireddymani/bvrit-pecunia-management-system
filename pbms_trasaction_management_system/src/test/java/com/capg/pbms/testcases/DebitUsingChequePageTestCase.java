@@ -47,9 +47,10 @@ public class DebitUsingChequePageTestCase extends Library{
 	public void close()
 	{
 		seleniumUtility = new SeleniumUtility(driver);
+		seleniumUtility.switchToAlert();
 		seleniumUtility.getTitle();
 		seleniumUtility.to_take_screenshot("FormDetails");
-		//tearDown();
+		tearDown();
 		logger.info("Closing Browser");
 		
 	}

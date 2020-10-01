@@ -1,5 +1,7 @@
 package com.capg.pbms.stepdefination;
 
+import java.util.concurrent.TimeUnit;
+
 import com.capg.pbms.baseclass.Library;
 import com.capg.pbms.pages.CreditUsingChequePage;
 import com.capg.pbms.pages.DebitUsingChequePage;
@@ -42,8 +44,10 @@ public class CreditUsingChequeSteps extends Library{
 	@Then("Amount is Credited From the FromAccountNumber to ToAccountNumber")
 	public void amount_is_Credited_From_the_FromAccountNumber_to_ToAccountNumber() {
 	    seleniumUtility = new SeleniumUtility(driver);
+	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		seleniumUtility.switchToAlert();
 		seleniumUtility.to_take_screenshot("Credit");
+		tearDown();
 	}
 
 }

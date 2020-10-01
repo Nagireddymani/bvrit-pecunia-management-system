@@ -29,7 +29,7 @@ class PbmsTrasactionManagementSystemApplicationTests {
 	void init()
 	{
 		cheque=new Cheque("", 2, "548910101000123", 500.0, "Ravikumar", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
-		cheque1=new Cheque("", 2, "548910101000123", 500000.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
+		cheque1=new Cheque("", 3, "548910101000123", 500000.0, "Manikanta", "Pecunia Bank of India", "PECB0001714", LocalDateTime.now(),"Pending" );
 	}
 	
 	@Test

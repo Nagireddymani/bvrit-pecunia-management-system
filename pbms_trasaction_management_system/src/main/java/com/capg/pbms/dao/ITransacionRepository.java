@@ -1,4 +1,4 @@
-package com.capg.pbms.repository;
+package com.capg.pbms.dao;
 
 import java.util.List;
 

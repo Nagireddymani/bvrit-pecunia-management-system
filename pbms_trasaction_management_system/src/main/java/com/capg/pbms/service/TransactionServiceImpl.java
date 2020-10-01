@@ -13,15 +13,15 @@ import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.server.ResponseStatusException;
 
+import com.capg.pbms.dao.IChequeRepository;
+import com.capg.pbms.dao.ISlipRepository;
+import com.capg.pbms.dao.ITransacionRepository;
 import com.capg.pbms.exception.InsufficientBalanceException;
 import com.capg.pbms.exception.InvalidAccountNumberException;
 import com.capg.pbms.model.AccountManagement;
 import com.capg.pbms.model.Cheque;
 import com.capg.pbms.model.Slip;
 import com.capg.pbms.model.Transaction;
-import com.capg.pbms.repository.IChequeRepository;
-import com.capg.pbms.repository.ISlipRepository;
-import com.capg.pbms.repository.ITransacionRepository;
 
 /*******************************************************************************************************************************
 -Author                   :     N.Mani Kanta Reddy, M.Sai
